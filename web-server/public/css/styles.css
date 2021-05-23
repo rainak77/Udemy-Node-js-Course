@@ -8,14 +8,12 @@ body {
     flex-direction: column;
 
     min-height: 100vh;
-    background-color: darkgrey;
 }
 footer {
     color: #161313;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
-    background-color: rgb(185, 187, 190);
 }
 header {
     margin-top: 16px;
@@ -42,5 +40,18 @@ header a:hover {
 }
 .main {
     flex-grow: 1;
-    background-color: rgb(231, 230, 243);
+}
+input {
+    border: 1px solid grey;
+    padding: 8px;
+}
+button {
+    cursor: pointer;
+    border: 1px solid grey;
+    background-color: grey;
+    color: white;
+    padding: 8px;
+}
+button:hover {
+    background-color: tomato;
 }

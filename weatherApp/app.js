@@ -1,6 +1,5 @@
 
 const geocode = require('./utils/geoCode');
-
 const forecast = require('./utils/foreCast');
 
 let address = process.argv[2];
